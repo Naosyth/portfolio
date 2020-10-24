@@ -1,3 +1,7 @@
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/hossainemruz/toha.git
+[submodule "naosyth.github.io"]
+	path = naosyth.github.io
+	url = https://github.com/naosyth/naosyth.github.io.git
+	branch = master
