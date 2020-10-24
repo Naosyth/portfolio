@@ -1,0 +1,13 @@
+name: "Brandon Worl"
+nickname: "Brandon"
+greeting: "Hi, I am"
+image: "images/avatar.jpg"
+
+contactInfo:
+  email: "brandon.worl@gmail.com"
+
+summary:
+  - I am a Developer
+  - I love frontend development!
+  - React is my jam
+  - I build cool things

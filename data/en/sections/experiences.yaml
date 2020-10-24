@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Totem
+    url: "https://totem.vegas/"
+    location: Las Vegas, NV
+    # company overview
+    overview: I was brought on as a short term contract employee to help rebuild a client's point-of-sale app from the ground up using React. We had a very short timeframe to complete the project, while still following as many best practices as possible. Responsibilities included building the main customer flow dashboard and customer onboarding experience, as well as providing thorough code review for the rest of the team.
+  positions:
+  - designation: Senior Software Engineer
+    start: March 2020
+    end: May 2020
+    responsibilities:
+    - Implement customer flow UI as both list and kanban style views.
+    - Implement customer onboarding process, including the ability to take a customer's photo directly in-app via webcam or device camera.
+    - Leadership regarding best practices.
+    - Provide thorough code review for the rest of the team.
+
+- company:
+    name: Originate
+    url: "https://www.originate.com"
+    location: Las Vegas, NV
+    overview: Originate is a software development consulting firm that provides high quality development efforts to its clients.
+  positions:
+  - designation: Senior Software Engineer
+    start: July 2017
+    end: February 2020
+    responsibilities:
+    - Provided high quality code review for other developers on projects.
+    - Helped design and implement software used to track securities in european markets. Utilized a Go based micro service backend and a React frontend.
+    - Assisted with the development of a platform used to train machine learning models through a web-based React frontend.
+    - Orchestrated a significant refactor of an existing React Native app used to help refinance homes to support deep linking from push notifications.
+  - designation: Software Engineer
+    start: June 2015
+    end: July 2017 (approx.)
+    responsibilities:
+    - Helped develop a commercial real estate search engine, using Angular 2, Node.js, and Firebase.
+    - Worked on an application that tracked and visualized computing resource consumption, such as how utilities (electricity, gas, etc) are tracked and billed.
+    - Many other projects, including both front and backend development.
+  - designation: Intern
+    start: June 2014
+    end: August 2014
+    responsibilities:
+    - Assist other developers with smaller tasks on projects
+    - Implement changes to internal tools used for recruiting purposes
+    - Work on personal intern project, an Android app that measures and charts device metrics over time.
+  

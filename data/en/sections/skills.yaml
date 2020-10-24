@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: React
+  icon: "images/skills/react.svg"
+  summary: "My preferred web frontend framework, I have completed multiple React based projects, both professionally and personally."
+  url: "https://reactjs.org/"
+
+- name: Databases
+  icon: "images/skills/database.png"
+  summary: "I have experience using multiple databses, such as MySQL and Postgres, as well as no-SQL databases such as MongoDB and Firebase."
+
+- name: Python
+  icon: "images/skills/python.png"
+  summary: "Mostly used academically and for personal projects, but I am comfortable with the language."
+
+- name: Webpack
+  icon: "images/skills/webpack.png"
+  summary: "I have used and configured Webpack on multiple frontend projects."
+  url: "https://webpack.js.org/"
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "Experienced with git-based development. Have worked with Github and GitLab."
+  url: "https://git-scm.com/"
+
+- name: C#
+  icon: "images/skills/c-sharp.png"
+  summary: "Mostly used for game development in Unity, at a small scale. I am comfortable with the language and its syntax."
+
+- name: C++
+  icon: "images/skills/c-plus-plus.png"
+  summary: "Know basic C/C++ programming. Used mainly for academic projects."

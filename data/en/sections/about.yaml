@@ -1,0 +1,59 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a software engineer with five years of working experience. I am capable of full stack development, but my passion lies in frontend web development. I feel the most accomplished when I am able to combine solid functionality with beautiful aesthetics.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "brandon.worl@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/naosyth"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/brandon-worl-1268b96b/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: React
+  percentage: 90
+  color: blue
+- name: React Native
+  percentage: 85
+  color: sky
+- name: CSS
+  percentage: 95
+  color: yellow
+- name: Webpack
+  percentage: 80
+  color: pink
+- name: NoSQL
+  percentage: 80
+  color: green
+- name: Git
+  percentage: 85
+  color: orange

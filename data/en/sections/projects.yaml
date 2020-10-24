@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: PUBGderboards
+  logo: images/projects/pubgderboards.png
+  role: Developer
+  timeline: "April 2018 - August 2020"
+  url: http://www.pubgderboards.com
+  summary: Allows players to view their aggregated stats across all seasons for the game Player Unknown's Battlegrounds. Users can also compare their stats against their friends and streamers, from all platforms.
+  tags: ["hobby"]
+
+- name: Flight Assist
+  logo: images/projects/flightassist.png
+  role: Developer
+  timeline: "November 2017"
+  repo: https://github.com/Naosyth/FlightAssist
+  summary: Developed using the ingame programming capabilities (C#) for a game called Space Engineers. Heavily utilizes linear algebra to help players control the vehicles to build in game. Normally uncontrollable ships suddenly become very easy to fly, when using this script. Over 7500 subscribers.
+  tags: ["hobby"]
+
+- name: Reddit Steam Workshop Bot
+  role: Developer
+  timeline: "February 2016"
+  repo: https://github.com/Naosyth/WorkshopBot
+  summary: A simple Python bot that searches for Steam Workshop links and replies with a modified link that will open directly in the Steam client, rather than a web browser.
+  tags: ["hobby"]
+
+- name: UNR CS Submission Website
+  role: Developer
+  timeline: "October 2014 - April 2015"
+  repo: https://github.com/Naosyth/SubmitWebsite
+  summary: My senior project at UNR, a web app for use by teachers and graders in intro level computer science courses. Allowed students to submit their code online and automatically run it against an array of test cases.
+  tags: ["academic"]
+
+- name: GraphIt
+  logo: images/projects/graphit.png
+  role: Developer
+  timeline: "August 2014"
+  repo: https://github.com/Naosyth/graphit
+  summary: My intern project at Originate, this was an Android app that would track various metrics about your device and plot them over time, in order to reveal usage and device health trends.
+  tags: ["professional", "hobby"]
+
+- name: Space Game (CS 381)
+  role: Developer
+  timeline: May 2013
+  repo: https://github.com/Naosyth/cs381game
+  summary: The final project for my game engine development class in college, this game was a 3D space dogfighting game created with Python. All physics for player, AI, and camera movement were implemented from scratch. Rendering was handled by Python Ogre.
+  tags: ["academic"]
